@@ -1,13 +1,15 @@
 # Wallet
-# app id dd7ac22c-e616-4923-b321-ca1e7baf34cf
+# app id: 
+dd7ac22c-e616-4923-b321-ca1e7baf34cf
 # sdk 
-// Using npm
+# Using npm
 npm install @phantom/react-sdk
-// Using yarn
+# Using yarn
 yarn add @phantom/react-sdk
-// Using pnpm
+# Using pnpm
 pnpm add @phantom/react-sdk
 # getting started with the sdk 
+```
 import { PhantomProvider, useModal, darkTheme, usePhantom, AddressType } from "@phantom/react-sdk";
 
 function App() {
@@ -44,3 +46,4 @@ function WalletComponent() {
 
   return <button onClick={open}>Connect Wallet</button>;
 }
+```
